@@ -14,7 +14,7 @@ export default class HomeScreen extends Component {
                 UNDER "TILFØJ" KAN DU VÆLGE TYPE AF MØBEL, SOM DU GERNE VIL SKRÆDDERSYE TIL DIT HJEM.
                     HERTIL KAN DU VÆLGE MATERIALE, MÅL OG FARVE.{"\n"}
                     SKULLE DU HAVE NOGLE SPØRGSMÅL, SÅ FIND MIN KONTAKT OPLYSNINGER UNDER "PROFIL".{"\n"}
-                    GOD FORNØJELSE .
+                    GOD FORNØJELSE.
                 </Text>
 
 
