@@ -3,11 +3,15 @@ import {Text, View, StyleSheet, Image, TouchableOpacity} from 'react-native';
 
 export default class ChooseScreen extends Component {
     static navigationOptions = {
-        title: 'Møbeltype'
+        title: 'Test'
     }
 
     render() {
-
+        return (
+            <View style={styles.container}>
+                <Text>Kommer snart</Text>
+            </View>
+        )
     }
 }
 

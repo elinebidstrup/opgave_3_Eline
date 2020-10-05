@@ -9,7 +9,7 @@ export default class CustomizationScreen extends Component {
     constructor(props) {
         super(props);
         YellowBox.ignoreWarnings([
-            'Warning: isMounted(...) is deprecated', 'Module RCTImageLoader'
+            'Warning'
         ]);
     }
 

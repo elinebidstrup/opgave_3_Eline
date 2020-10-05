@@ -2,13 +2,6 @@ import React, { Component } from 'react';
 import { Text, View, StyleSheet, Image, TouchableOpacity } from 'react-native';
 
 export default class ChooseTypeScreen extends Component {
-    static navigationOptions = {
-        title: 'Møbeltype'
-    }
-
-    GoToMeasurement = (route) => {
-        this.props.navigation.navigate('measurement');
-    }
 
     render() {
         return (
@@ -24,7 +17,7 @@ export default class ChooseTypeScreen extends Component {
                         <Text style={styles.imageText}>STOLE</Text>
                     </TouchableOpacity>
 
-                    <TouchableOpacity styles={styles.imageText} onPress={this.GoToMeasurement}>
+                    <TouchableOpacity styles={styles.imageText} onPress={() => alert('KOMMER')}>
                         <Image style={styles.image} source={require('../img/Natbord.png')}/>
                         <Text style={styles.imageText}>NATBORD</Text>
                     </TouchableOpacity>

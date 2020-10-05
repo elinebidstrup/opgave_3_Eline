@@ -5,15 +5,9 @@ import { createStackNavigator } from "react-navigation-stack";
 import { createAppContainer } from "react-navigation";
 import HomeScreen from "./components/HomeScreen";
 import ProfileScreen from "./components/ProfileScreen";
-import NewOrderScreen from "./components/NewOrderScreen"
-import DetailScreen from "./components/profileNavigation/DetailScreen";
-import OverviewScreen from "./components/profileNavigation/OverviewScreen";
-import ChooseScreen from "./components/ChooseScreen";
-import SettingScreen from "./components/profileNavigation/SettingScreen";
 import ChooseTypeScreen from "./components/orderNavigation/ChooseTypeScreen";
 import {createBottomTabNavigator} from "react-navigation-tabs";
 import { Ionicons } from '@expo/vector-icons';
-import ProductCatalogScreen from "./components/ProductCatalogScreen";
 import CustomizationScreen from "./components/orderNavigation/CustomizationScreen";
 
 
